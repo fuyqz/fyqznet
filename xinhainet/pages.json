@@ -1,0 +1,101 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "起始页"
+            }
+        },
+        {
+            "path": "pages/form/form",
+            "style": {
+                "navigationBarTitleText": "用户注册页",
+                "enablePullDownRefresh": false
+            }
+
+        },
+        {
+            "path": "pages/form/login",
+            "style": {
+                "navigationBarTitleText": "用户登录页"
+            }
+        },
+        {
+            "path": "pages/form/group",
+            "style": {
+                "navigationBarTitleText": "创建小组"
+            }
+        },
+        {
+            "path": "pages/tip/tip",
+            "style": {
+                "navigationBarTitleText": "提示页",
+                "enablePullDownRefresh": false
+            }
+
+        },
+        {
+            "path": "pages/list/list",
+            "style": {
+                "navigationBarTitleText": "小组页面",
+                "enablePullDownRefresh": false
+            }
+
+        },
+        {
+            "path": "pages/list/gplist",
+            "style": {
+                "navigationBarTitleText": "小组详情",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/user/index",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+
+        },
+        {
+            "path": "pages/user/mygroup",
+            "style": {
+                "navigationBarTitleText": "我的小组",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/user/mylist",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#888",
+        "selectedColor": "8BA3C7",
+        "backgroundColor": "#eee",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/static/icon/index.png",
+                "selectedIconPath": "/static/icon/index-c.png"
+            },
+            {
+                "pagePath": "pages/user/index",
+                "text": "我的",
+                "iconPath": "/static/icon/user.png",
+                "selectedIconPath": "/static/icon/user-c.png"
+            }
+        ]
+    },
+    "uniIdRouter": {}
+}

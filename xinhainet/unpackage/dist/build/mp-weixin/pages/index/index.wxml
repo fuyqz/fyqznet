@@ -1,0 +1,1 @@
+<view class="logo flex col center"><text class="mg8 bian">一些介绍</text><image src="/static/logo.png"/><text class="mg8 bian">一些介绍</text></view><view class="flex col center"><navigator url=".//pages/index/login" class="btn">登录</navigator></view>

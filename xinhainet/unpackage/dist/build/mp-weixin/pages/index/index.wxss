@@ -1,0 +1,1 @@
+.flex{display:flex}.col{flex-direction:column}.mg8{margin:40rpx}.center{align-items:center}.bian{border:1px solid blue}image{width:100rpx;height:100rpx;border-radius:50rpx}.logo{padding:40rpx}.btn{width:100rpx;line-height:100rpx;border-radius:50%;text-align:center;border:1px solid #eee;margin:20rpx;font-style:initial}.btn:hover{border:1px solid black}

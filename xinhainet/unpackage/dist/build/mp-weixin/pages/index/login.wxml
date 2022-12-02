@@ -1,0 +1,1 @@
+<view><view class="logo flex col center mg8"><image src="/static/logo.png"/></view><view class="flex col center"><input type="nickname" name="nicname" placeholder="用户名:"/><input type="safe-password" name="password" placeholder="密码:"/><navigator url="#" class="btn">登录</navigator><navigator url=".//pages/form/form" class="btn">注册</navigator></view></view>
