@@ -3,7 +3,7 @@
         <view class="card">
             <!-- 上半部分软件介绍 -->
             <view class="logo flex col center">
-                <text class="top_tip cu">心海net</text>
+                <text class="top_tip cu">浮云net</text>
                 <text class="mg8">一款练习时长两年半的项目</text>
                 <image src="../../static/logo.png" />
                 <text class="mg8">在这里你能够:
@@ -14,12 +14,12 @@
             <!-- 下半部分用户区域 -->
             <view class="flex center col mg8">
                 <view class="flex">
-                    <navigator class="btn" url="/pages/form/group">开银趴</navigator>
-                    <navigator class="btn" url="/pages/list/list">找银趴</navigator>
+                    <navigator class="btn" url="/pages/form/group">创建群组</navigator>
+                    <navigator class="btn" url="/pages/list/list">找群</navigator>
                 </view>
                 <view class="flex">
-                    <navigator class="btn" url="/pages/tip/tip?text=NO!">正直人</navigator>
-                    <navigator class="btn" url="/pages/user/mygroup">我的银趴</navigator>
+                    <navigator class="btn" url="/pages/tip/tip?text=NO!">孤身一人</navigator>
+                    <navigator class="btn" url="/pages/user/mygroup">我的群组</navigator>
                 </view>
 
             </view>
