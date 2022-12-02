@@ -1,6 +1,6 @@
 第一版内容:
 基于元岛0.5项目进行用户体验优化后的版本;原项目地址:https://github.com/midorg-com/midorg  tags 0.5.0
-已请求加入开源项目
+
 
 目前修改:
 
