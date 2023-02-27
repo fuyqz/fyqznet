@@ -196,28 +196,28 @@
             user(user_name) {
                 if (user_name == 'me') {
                     this.url =
-                        '&token=zUgUra6IlDIm5BzAAfUn7iT49v8TWTxrCcWcI2bdb5hodDMKDakhMMyFp%2FEUmCN9jBFez%2BNTaa7aXGhAyaBC9AmfVhirOhoYP4ZYHOpFBVlXrhVlOOEJfcgLFtYzTSaX6eeVCf9HDnS8ORHu4%2FSrVYg48KhRXGShF8QO9mkolVLvBGKnovAxQ3xAMOsnEvBlL1jEsSHVp8T3&channelId=2';
+                        'a';
                     uni.showToast({
                         icon: 'success',
                         title: '已选中 我'
                     })
                 } else if (user_name == 'bin') {
                     this.url =
-                        '&token=itwvM1uLq8vkYk2p0Z3ucZIwkEoy1fmoUFpH5GUCfkZaUoeFwMg5HZ4mKVYuPcQeE%2BBpCFPAINc2HzHlvnU5xa%2BwnR9WvY1x2RxlnyjkkR4E%2FMi7dEgODkf8IYtiUGVZ6IW8CN0fbUgYrq7gw6yviaTeyHaWr4rpOsBJZQqWBZ866yZ4k57zKYKQ%2BOUQhMkz4VomDzoXVwRE&channelId=2';
+                        'b';
                     uni.showToast({
                         icon: 'success',
                         title: '已选中 斌'
                     })
                 } else if (user_name == 'ju') {
                     this.url =
-                        '&token=quLg2iBp%2Bl6oUuhnzOCpUxLOo3P3F8HpuH82fhhR4vS0KhOef6XG58xCy19R56EYN3iiawg1xfxdWeiMYWGgL4D9PM%2FqDwIhuGnnZkLc5TiKpLD99s1bd6vpzZmFZkl6J3aZmf6MUbdFmK64sGu9zvPbI0IKP0e7W1gEJfXCP5lm%2B7n84cppT3Bgc5MtWG38YIOHFRVPT5iQ&channelId=2';
+                        'c';
                     uni.showToast({
                         icon: 'success',
                         title: '已选中 居'
                     })
                 } else if (user_name == 'min') {
                     this.url =
-                        '&token=Gs2PllmrPkGWaRbK7UN2GUGv39%2B1JHQrEW3%2F4TCeAofX4gJGXgnxxKddCuM%2BQd8Sdprq8DF5p7QcPZpmoUFPUy7eY8A5v1G4SdMo%2Fzwyt5b5A9F1jW1QX4dzBDgV%2FwRCfU1X%2BzzWUUC3xrUgdw1dYFlGnrA4rBPyWkyLFBfutv1RA%2BNWnmI3stmTf1i1jA57lDquunKstACF&channelId=2'
+                        'd'
                     uni.showToast({
                         icon: 'success',
                         title: '已选中 小'
