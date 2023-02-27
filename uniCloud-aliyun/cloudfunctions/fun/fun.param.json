@@ -1,0 +1,15 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/rundebug.html#runparam
+{
+    api: 'mgBoard',
+    token: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg1NmYyNjY3NDJiNzAwMDExYmQzNDYiLCJpYXQiOjE2NzA5ODY5OTd9.G6QTRdY4KrvJf3NjzYHvywgthdu_g9faRQC_Pd32vL8',
+    args: {
+        tip: 'publish',
+        username: "123",
+        content: "xxxxx",
+        anser: {
+            "a": 'xxx',
+            "b": 'xxx'
+        },
+    }
+}
